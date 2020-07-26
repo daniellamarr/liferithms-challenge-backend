@@ -15,7 +15,7 @@ switch (NODE_ENV) {
     url = DB_PROD;
     break;
   default:
-    url = `mongodb://localhost:27017/${DB_DEV}`;
+    url = DB_DEV;
     break;
 }
 
