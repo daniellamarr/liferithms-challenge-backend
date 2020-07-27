@@ -12,11 +12,11 @@ const ActivitySchema = Schema({
     required: [true, 'activity description is required']
   },
   start_date: {
-    type: Date,
+    type: Number,
     required: [true, 'activity start date is required']
   },
   end_date: {
-    type: Date,
+    type: Number,
     required: [true, 'activity end date is required']
   },
   owner: {

@@ -37,7 +37,7 @@ const verifyGoogleToken = async (req, res, next) => {
     console.log(error)
     return res.status(500).send({
       success: false,
-      message: 'there was an error on the server-'
+      message: 'there was an error on the server'
     });
   }
 }
